@@ -1,0 +1,7 @@
+<templateSet group="Zen CSS">
+  <template name="tt:l" value="text-transform:lowercase;" description="text-transform:lowercase;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>
