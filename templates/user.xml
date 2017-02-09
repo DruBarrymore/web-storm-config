@@ -21,8 +21,8 @@
     </context>
   </template>
   <template name="export" value="export {$variable$} from '$path$'" toReformat="false" toShortenFQNames="true">
-    <variable name="variable" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="false" />
-    <variable name="path" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="false" />
+    <variable name="variable" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
