@@ -13,4 +13,18 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="msg" value="'$msgID$': '$msgText$'," toReformat="false" toShortenFQNames="true">
+    <variable name="msgID" expression="" defaultValue="&quot;messageID&quot;" alwaysStopAt="true" />
+    <variable name="msgText" expression="" defaultValue="&quot;messageText&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="export" value="export {$variable$} from '$path$'" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="false" />
+    <variable name="path" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
