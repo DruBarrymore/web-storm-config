@@ -1,26 +1,26 @@
 <templateSet group="user">
-  <template name="statlessComponent" value="import React, { PropTypes } from 'react'&#10;&#10;export const $variable_name$ = (props) =&gt; (&#10;    &lt;div&gt;&#10;        &#10;    &lt;/div&gt;&#10;)&#10;&#10;$variable_name$.propTypes = {&#10;&#10;}&#10;&#10;$variable_name$.defaultProps = {&#10;&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="statlessComponent" value="import React, { PropTypes } from 'react'&#10;&#10;export const $variable_name$ = (props) =&gt; (&#10;    &lt;div&gt;&#10;        &#10;    &lt;/div&gt;&#10;)&#10;&#10;$variable_name$.propTypes = {&#10;&#10;}&#10;&#10;$variable_name$.defaultProps = {&#10;&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="variable_name" expression="camelCase(String)" defaultValue="&quot;nameOfComponent&quot;" alwaysStopAt="false" />
     <context>
       <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="classComponent" value="import React, { PropTypes } from 'react'&#10;&#10;export class $className$ extends React.Component {&#10;&#9;static propTypes = {&#10;&#10;&#9;}&#10;&#9;static defaultProps = {&#10;&#10;&#9;}&#10;&#9;constructor (props) {&#10;&#9;&#9;super(props)&#10;&#9;&#9;&#9;&#10;&#9;}&#10;&#9;render () {&#10;       &#10;    }&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="classComponent" value="import React, { PropTypes } from 'react'&#10;&#10;export class $className$ extends React.Component {&#10;&#9;static propTypes = {&#10;&#10;&#9;}&#10;&#9;static defaultProps = {&#10;&#10;&#9;}&#10;&#9;constructor (props) {&#10;&#9;&#9;super(props)&#10;&#9;&#9;&#9;&#10;&#9;}&#10;&#9;render () {&#10;       &#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="className" expression="camelCase(String)" defaultValue="&quot;insertClassName&quot;" alwaysStopAt="false" />
     <context>
       <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="msg" value="'$msgID$': '$msgText$'," toReformat="false" toShortenFQNames="true">
+  <template name="msg" value="'$msgID$': '$msgText$'," description="" toReformat="false" toShortenFQNames="true">
     <variable name="msgID" expression="" defaultValue="&quot;messageID&quot;" alwaysStopAt="true" />
     <variable name="msgText" expression="" defaultValue="&quot;messageText&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="export" value="export {$variable$} from '$path$'" toReformat="false" toShortenFQNames="true">
+  <template name="export" value="export {$variable$} from '$path$'" description="" toReformat="false" toShortenFQNames="true">
     <variable name="variable" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="path" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="true" />
     <context>
