@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="limitExeeded" type="JavaScript" />
+      <mapping pattern="forts-details.jsx" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
