@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="forts-details" type="JSX Harmony" />
       <mapping pattern="limitExeeded" type="JavaScript" />
       <mapping pattern="forts-details.jsx" type="PLAIN_TEXT" />
     </extensionMap>
