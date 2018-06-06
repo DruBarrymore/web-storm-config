@@ -6,7 +6,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="classComponent" value="import React, { PropTypes } from 'react'&#10;&#10;export class $className$ extends React.Component {&#10;&#9;static propTypes = {&#10;&#10;&#9;}&#10;&#9;static defaultProps = {&#10;&#10;&#9;}&#10;&#9;constructor (props) {&#10;&#9;&#9;super(props)&#10;&#9;&#9;&#9;&#10;&#9;}&#10;&#9;render () {&#10;       &#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="classComponent" value="import React from 'react'&#10;import PropTypes from 'prop-types'&#10;&#10;export class $className$ extends React.Component {&#10;&#10;&#9;static propTypes = {}&#10;&#10;&#9;static defaultProps = {}&#10;&#10;&#9;static displayName = '$className$'&#10;&#10;&#9;render () {&#10;        return (&#10;            &lt;div&gt;&#10;                {'dome here'}&#10;            &lt;/div&gt;&#10;        )&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="className" expression="camelCase(String)" defaultValue="&quot;insertClassName&quot;" alwaysStopAt="false" />
     <context>
       <option name="JSX_HTML" value="true" />
