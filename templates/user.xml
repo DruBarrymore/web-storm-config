@@ -39,7 +39,7 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
-  <template name="colors" value="@import '@sbol/lib.ui/src/utils/styles/colors.config';" toReformat="false" toShortenFQNames="true">
+  <template name="colors" value="@import '@sbol/lib.ui/src/utils/styles/colors.config';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="CSS" value="true" />
     </context>
