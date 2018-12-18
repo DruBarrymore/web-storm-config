@@ -1,8 +1,8 @@
 <code_scheme name="Default (1)" version="173">
   <HTMLCodeStyleSettings>
-    <option name="HTML_SPACE_AFTER_TAG_NAME" value="true" />
+    <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   </HTMLCodeStyleSettings>
-  <JSCodeStyleSettings>
+  <JSCodeStyleSettings version="0">
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
