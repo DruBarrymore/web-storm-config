@@ -19,5 +19,6 @@
     <mask>*.spec.js</mask>
     <mask>*.json</mask>
     <mask>*.spec.jsx</mask>
+    <mask>*.less</mask>
   </component>
 </application>
