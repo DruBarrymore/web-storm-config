@@ -18,5 +18,6 @@
     <mask>index.tsx</mask>
     <mask>*.tsx</mask>
     <mask>*.less</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
