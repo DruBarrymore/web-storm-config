@@ -22,7 +22,7 @@
     <mask>*.ts</mask>
     <mask>*.tsx</mask>
     <mask>*.css</mask>
-    <mask>*.jsx</mask>
     <mask>*.js</mask>
+    <mask>*.jsx</mask>
   </component>
 </application>
